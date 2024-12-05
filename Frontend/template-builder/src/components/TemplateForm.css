@@ -1,0 +1,29 @@
+/* src/components/TemplateForm.css */
+.template-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .template-form input,
+  .template-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .template-form button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .template-form button:hover {
+    background-color: #45a049;
+  }
+  

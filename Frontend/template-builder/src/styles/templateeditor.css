@@ -1,0 +1,18 @@
+.template-editor-page {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .template-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .template-form input,
+  .template-form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  

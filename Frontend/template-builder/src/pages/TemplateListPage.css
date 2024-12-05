@@ -1,0 +1,17 @@
+/* src/pages/TemplateListPage.css */
+.template-list-page {
+    padding: 20px;
+  }
+  
+  .template-list-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .template-list-page .template-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
