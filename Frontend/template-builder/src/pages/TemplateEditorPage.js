@@ -15,7 +15,7 @@ function TemplateEditorPage() {
   useEffect(() => {
     if (templateId) {
       // Fetch template details for editing
-      fetch(`http://localhost:5000/api/templates/${templateId}`)
+      fetch(`https://task-backend-1wc4.onrender.com/api/templates/${templateId}`)
         .then((response) => response.json())
         .then((data) => {
           setName(data.name);
@@ -28,8 +28,8 @@ function TemplateEditorPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const url = templateId
-      ? `http://localhost:5000/api/templates/${templateId}` // Edit URL
-      : "http://localhost:5000/api/templates"; // Create URL
+      ? `https://task-backend-1wc4.onrender.com/api/templates/${templateId}` // Edit URL
+      : "https://task-backend-1wc4.onrender.com/api/templates"; // Create URL
     const method = templateId ? "PUT" : "POST";
 
     fetch(url, {
