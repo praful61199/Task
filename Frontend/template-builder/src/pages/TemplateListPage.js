@@ -12,7 +12,7 @@ function TemplateListPage() {
 
   useEffect(() => {
     // Fetch templates from the backend
-    fetch("http://localhost:5000/api/templates")
+    fetch("https://task-backend-1wc4.onrender.com/api/templates")
       .then((response) => response.json())
       .then((data) => {
         setTemplates(data);
